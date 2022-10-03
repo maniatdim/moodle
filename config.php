@@ -7,7 +7,7 @@ $CFG = new stdClass();
 $CFG->dbtype    = 'mariadb';
 $CFG->dblibrary = 'native';
 $CFG->dbhost    = 'localhost';
-$CFG->dbname    = 'moodle';
+$CFG->dbname    = 'moodle_first';
 $CFG->dbuser    = 'root';
 $CFG->dbpass    = '';
 $CFG->prefix    = 'mdl_';
@@ -19,7 +19,7 @@ $CFG->dboptions = array (
 );
 
 $CFG->wwwroot   = 'http://localhost/moodle';
-$CFG->dataroot  = 'C:\\xamppNew\\moodledataMoodle';
+$CFG->dataroot  = 'C:\\xamppMoodle\\moodledata_moodle';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
